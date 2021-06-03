@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+	<!--	links start  -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="assets/img/logo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#ebf5ff">
+    <meta name="msapplication-TileColor" content="#f4f4f4">
+    <meta name="theme-color" content="#0080FF">
+    <meta name="description" author="Manit Malhotra" content="Kanishta Coders.">
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/aos.css"/>
+    <link rel="stylesheet" href="./css/logo.css">
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4e3f4d1695.js" crossorigin="anonymous"></script>
+    <title>Kanishta Coders</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2ZJWFDY3DD"></script>-->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2ZJWFDY3DD');
+    </script>
+</head>
+
+<body class="body theme__light">
+    <button id="dark-mode-toggle" class="btn__dark-mode-toggle" aria-label="Toggle dark mode"><i class="ri-contrast-line"></i></button>
+    <header class="header header__solid">
+        <div class="content-container">
+            <div class="header__wrapper">
+                <div class="brand-wrapper">
+                    <div class="image-wrapper"></div>
+                    <div class="brand"><a href="index.html"><span>Kanishta</span>Coders</a></div>
+                </div>
+                <div class="menu">
+                    <button class="btn__menu" id="btn__menu" aria-label="Menu"><i class="ri-menu-3-line"></i></button>
+                    <div class="overlay hide"></div>
+                    <nav class="nav">
+                        <div class="nav__close">
+                            <button class="btn__close" id="btn__close" aria-label="Close menu"><i
+                                    class="ri-close-line"></i></button>
+                        </div>
+                        <ul class="nav__items">
+                            <li class="nav__item active" id="nav_hover"><a href="index.html"><i
+                                        class="ri-home-line"></i><span>Home</span></a>
+                             <li class="nav__item active" id="nav_hover"><a href="#About"><i
+                                        class="ri-home-line"></i><span>About Us</span></a>
+                              <li class="nav__item active"id="nav_hover"><a href="#Service"><i
+                                        class="ri-home-line"></i><span>Services</span></a>
+                               <li class="nav__item active" id="nav_hover"><a href="#Feedback"><i
+                                        class="ri-home-line"></i><span>Feedbacks</span></a>
+                                 <li class="nav__item active" id="nav_hover"><a href="#Teacher"><i
+                                        class="ri-home-line"></i><span>Teacher</span></a>
+                                  <li class="nav__item active" id="nav_hover"><a href="https://www.youtube.com/c/Kanishtacoder%E2%80%99s"><i
+                                        class="ri-home-line"></i><span>Subscribe</span></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="content-container">
+                <div class="hero__content" data-aos="fade">
+                    <div class="hero__text">
+                        <h1 class="hero__heading">DESIRE TO <span>LEARN</span><br>DARE TO <span>EXPRESS</span></h1>
+                        <div class="register">
+                            <div class="register__links">
+                                 <a  href="" class="anchor__webinar link" style="background-color: transparent"><img class="tab"  src="./assets/img/assignment.png" height="100px"></a>
+                                <a  href="" class="anchor__webinar link" style="background-color: transparent"><img class="tab" src="./assets/img/f trial.png" height="100px" ></a>
+                                <a  href="" class="anchor__webinar link " style="background-color: transparent"><img  src="./assets/img/zoom.png" height="49px" ></a>
+                                <a  href="" class="anchor__webinar link" style="background-color: transparent"><img  src="./assets/img/gmeet.png" height="119px" ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__illustration">
+                        <img src="assets/illustration/reading.png" alt="kid studying">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stem" id="About">
+            <div class="content-container">
+                <div class="stem__content">
+                    <h3 class="stem__heading" data-aos="fade-right"><span class="color-primary">KANISHTA CODER'S</span> is an acronym for Computer Science,
+                        Technology.<br>
+                        A holistic teaching approach by integrating these disciplines facilitates an in-depth
+                        understanding and opens myriad of opportunities for the students.</h3>
+                    <div class="stem__cards">
+                        <div class="stem__card" data-aos="fade-up">
+                            <div class="stem__illustration">
+                                <img src="assets/illustration/science.svg" alt="science">
+                            </div>
+                            <h5 class="card__heading">App Development</h5>
+                            <p class="card__description">Learn how to make mobile apps for iPhone, iPad, Android and Mobile Web.
+                            Best intro to development for all backgrounds.</p>
+                        </div>
+                        <div class="stem__card" data-aos="fade-up">
+                            <div class="stem__illustration">
+                                <img src="assets/illustration/technology.svg" alt="technology">
+                            </div>
+                            <h5 class="card__heading">Website Development</h5>
+                            <p class="card__description">Learn Web Development by building websites using HTML,
+                            CSS, Javascript, PHP, Python, MySQL & more!</p>
+                        </div>
+                        <div class="stem__card" data-aos="fade-up">
+                            <div class="stem__illustration">
+                                <img src="assets/illustration/engineering.svg" alt="engineering">
+                            </div>
+                            <h5 class="card__heading">Engineering</h5>
+                            <p class="card__description">Building, Constructing, Investing, Implementing</p>
+                        </div>
+                        <div class="stem__card" data-aos="fade-up">
+                            <div class="stem__illustration">
+                                <img src="assets/illustration/Gaming _Two Color.svg" alt="mathematics">
+                            </div>
+                            <h5 class="card__heading">Game Development</h5>
+                            <p class="card__description">Will learn the fundamentals of game design, including an understanding of the
+                            game world, storytelling, gameplay, user experience, and game technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--******************************************************** S E R V I C E  S E C T I O N **************************************************************************************-->
+       
+        <section class="services" data-aos="fade" id="Service">
+            <div class="content-container">
+                <div class="services__content">
+                    <div class="section__text" data-aos="fade-up">
+                        <h2 class="section__heading">Services</h2>
+                        <p class="section__description">Here are some details about our program and courses.</p>
+                    </div>
+                    <div class="services__offered" >
+                        <div class="services__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 17.png"  width="65" height="50">
+                            <img src="assets/img/IMG 13.png"  width="40" height="50">
+                            <img src="assets/img/IMG 16.png"  width="70" height="50">
+                            <h5 class="card__heading">HTML , CSS , JS </h5>
+                            <p class="card__description">Website with heading, background image, font, title, basics tags, styling with css. Javascript portion covers loops, conditionals, and user interface controls like buttons, boxes and more...
+                            </p>
+							<br>
+							<center>
+							<b>2 Minor and 1 Major Project included</b>
+							</center>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+                            <h5 class="card__heading">JAVA</h5>
+                            <p class="card__description">Basics of java language and apart from conditionals, functions, modules, we will cover core concepts of object oriented language like classes, inheritance etc.</p>
+                        <br>
+							<b><center>MORE THAN 10 PROJECTS INCLUDED</center></b>
+						</div>
+                          <div class="services__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 18.png"  width="90" height="60">
+                            <h5 class="card__heading">SCRATCH</h5>
+                            <p class="card__description">Basics of block coding. We will touch almost all aspects like creating music, animation, stories,  games, mobile apps, web lab, playing with alphabets and more...
+                            </p>
+							<br>
+							<b><center>MORE THAN 20 PROJECTS INCLUDED</center></b>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 12.png"  width="60" height="60">
+                            <h5 class="card__heading">ROBLOX</h5>
+                            <p class="card__description">Real coding, game design, digital civility, and entrepreneurial skills.</p>
+							<br><center><h5>"ROBLOX IS REAL GAMEPLAY"</h5></center>
+							<br><br><b><center>MORE THAN 10 GAMES INCLUDED</center></b>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 14.png"  width="80" height="60">
+                            <h5 class="card__heading">PYTHON</h5>
+                            <p class="card__description">Course content includes conditionals, strings, basic data structures like lists,
+                            tuples, sets, dictionaries, functions, file handling and flavour of turtle programming, Tkinter and more...
+                            </p><br>
+							<b><center>MORE THAN 15 PROJECTS INCLUDED</center></b>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 15.png"  width="85" height="60">
+                            <h5 class="card__heading">ANDROID</h5>
+                            <p class="card__description"> Creating beautiful apps on real android
+                            based mobile phone or simulator. We will cover create basic calculator, play with camera,
+                            magic ball, create some quizzes and more....</p>
+							<br>
+							<b><center>MORE THAN 10 APPS INCLUDED</center></b>
+                        </div>
+                         <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-tools-line"></i></div>
+                            <h5 class="card__heading">School | College Computer Subjects  </h5>
+                            <p class="card__description">
+							<ul>
+							<LI>1ST TO 12TH CBSE</LI>
+							<LI>1ST TO 12TH ICSE</LI>
+							<LI>UG | PG  DIPLOMA</LI>
+							<LI>PGDCA</LI>
+							<li>BCA</LI>
+							<LI>MCA</LI>
+							<LI>M.SC IT</LI>
+							<LI>B.TECH</LI>
+							<LI>M.TECH</LI>
+							</UL>
+							</p>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-artboard-line"></i></div>
+                            <h5 class="card__heading">Basic Computer Course</h5>
+                            <p class="card__description">Microsoft Office, Networking Basics, Operating system , Mailing service and Latest technology updates.</p>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-fire-line"></i></div>
+                            <h5 class="card__heading">Holiday Camps</h5>
+                            <p class="card__description">1 Month camp programs where campers get to
+                                learn basics of coding.</p>
+								<br>
+							<b><center>Schools and Colleges are invited to colaborate</center></b>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-trophy-line"></i></div>
+                            <h5 class="card__heading">Technical Events | Hackathons</h5>
+                            <p class="card__description">Organisation of technical events (Hackathons) which provide students a
+                                platform where they can showcase their
+                                talents.</p>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-lightbulb-flash-line"></i></div>
+                            <h5 class="card__heading">Seminars | Workshops </h5>
+                            <p class="card__description"> Engage in quality workshops on cutting edge technology and innovations taught by leading industry experts, follwed by participation certificates.
+                            </p>
+							<br>
+							<b><center>Schools and Colleges are invited to colaborate</center></b>
+                        </div>
+                        <div class="services__card" data-aos="roll-in">
+                            <div class="services__icon"><i class="ri-robot-line"></i></div>
+                            <h5 class="card__heading">School | college  Projects</h5>
+                            <p class="card__description">Expert guidance for all engineering student (Degree/Diploma),<br>Internship,
+                                projects, starting from initiation to conclusion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--************************************************************** O W L  C A R O U S E L *****************************************************************-->
+       
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="container">
+                <div class="itemtext">
+                  <p>This div element has width: 500px;</p>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/Saly-3.svg">
+                </div>
+              </div>
+            </div>
+			<div class="item">
+              <div class="container">
+                <div class="itemtext">
+                  <p>This div element has width: 500px;</p>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/Saly-18.svg">
+                </div>
+              </div>
+            </div>
+			<div class="item">
+              <div class="container">
+                <div class="itemtext">
+                  <p>This div element has width: 500px;</p>
+                </div>
+                <div class="img">
+                  <img src="./assets/img/Saly-11.svg">
+                </div>
+              </div>
+            </div>
+                <div class="item">
+                  <div class="container">
+                    <div class="itemtext">
+                      <p>This div element has width: 500px;</p>
+                    </div>
+                    <div class="img">
+                      <img src="./assets/img/Saly-16.svg">
+                    </div>
+                  </div>
+            </div>
+                <div class="item">
+                  <div class="container">
+                    <div class="itemtext">
+                      <p>This div element has width: 500px;</p>
+                    </div>
+                    <div class="img">
+                      <img src="./assets/img/Saly-15.svg" >
+                    </div>
+                  </div>
+                </div>
+                 <div class="item">
+                  <div class="container">
+                    <div class="itemtext">
+                      <p>This div element has width: 500px;</p>
+                    </div>
+                    <div class="img">
+                      <img src="./assets/img/Saly-37.svg" >
+                    </div>
+                  </div>
+                </div>			
+        </div>
+        
+            <section class="student" data-aos="fade" id="Student">
+            <div class="simg-container" id="IMG">
+                <div class="student__content">
+                    <div class="section__text" data-aos="fade-down">
+                        <h2 class="section__heading">Students Corner</h2>
+                        <!--<p class="section__description"></p>-->
+                    </div>
+                    <div class="student__corner" id="student">
+                        <div class="student__card" data-aos="roll-in">
+                            <img src="assets/img/IMG 19.png"  width="75" height="60">
+                        </div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in" id="extra_content"">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                         <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                        <div class="student__card" data-aos="roll-in">
+                             <img src="assets/img/IMG 19.png"  width="75" height="60">
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+<!--*********************************************************** F E E D B A C K   S E C T I O N *****************************************************************-->
+
+        <section class="testimonials" data-aos="fade" id="Feedback">
+            <div class="content-container">
+                <div class="section__text" data-aos="fade-up">
+                    <h2 class="section__heading">What our students and their parents have to say about us</h2>
+                </div>
+                <nav class="tabbar" data-aos="fade-up">
+                    <ul class="tabbar__items">
+                        <li class="tabbar__item tabbar__item--current" id="parents">Parents</li>
+                        <li class="tabbar__item" id="students">Students</li>
+                        <li class="tabbar__item" id="clients">Clients</li>
+                    </ul>
+                </nav>
+                <div class="parents-testimony">
+                    <div class="testimony__cards">
+                        <div class="testimony" data-aos="zoom-in">
+                            <blockquote>
+                                The classes were informative, interactive, the trainer was well versed with the
+                                subject...the joy of my son after one hour class used to be tremendous..I gave them a
+                                customised app development course and the institute delivered it very
+                                professionally...all the people involved with this academy are very dedicated...will
+                                recommend to other students
+                            </blockquote>
+                            <div class="author">
+                                <div class="author__avatar">
+                                    <i class="ri-leaf-line"></i>
+                                </div>
+                                <div class="author__details" >
+                                    <h4 class="author__name">Sohini Reddy</h4>
+                                    <p class="author__position">Stock Trader</p>
+                                </div>
+                            </div>
+                        </div>
+						<div class="testimony" data-aos="zoom-in">
+                            <blockquote>
+                                The classes were informative, interactive, the trainer was well versed with the
+                                subject...the joy of my son after one hour class used to be tremendous..I gave them a
+                                customised app development course and the institute delivered it very
+                                professionally...all the people involved with this academy are very dedicated...will
+                                recommend to other students
+                            </blockquote>
+                            <div class="author">
+                                <div class="author__avatar">
+                                    <i class="ri-leaf-line"></i>
+                                </div>
+                                <div class="author__details" >
+                                    <h4 class="author__name">Sohini Reddy</h4>
+                                    <p class="author__position">Stock Trader</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimony" data-aos="zoom-in">
+                            <blockquote>It was nice interaction with Tech-innovators Mr. Amit Pandey. The teachers were
+                                very understanding and my child "Dhairya" enjoyed all the sessions. The session were
+                                well planned and layed out, and were easy for my son to follow along. I'm looking
+                                forward to
+                                enroll my son for more sessions with Tech-innovators in future.</blockquote>
+                            <div class="author">
+                                <div class="author__avatar">
+                                    <i class="ri-leaf-line"></i>
+                                </div>
+                                <div class="author__details">
+                                    <h4 class="author__name">Poonam Bhaskar</h4>
+                                    <p class="author__position">Aviation Industry</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- <div class="students-testimony"></div>
+                <div class="clients-testimony"></div>-->
+            </div>
+        </section>
+        
+        <section>
+         
+            <div class="videoplay">
+                    <div class="section__text" data-aos="fade-up">
+                    <h2 class="section__heading">Youtube Videos</h2>
+                </div>
+                <video width="365" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                 <video width="365" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                 <video width="365" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                 <video width="365" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+        <section>
+
+        <section class="teach-with-us">
+            <div class="content-container" data-aos="jackInTheBox" id="Teacher">
+                <div class="teach-with-us__content">
+                    <img src="assets/illustration/teaching.jpg" alt="teaching">
+                    <div class="teach-with-us__description">
+                        <h2 class="teach-with-us__heading">About Teacher</h2>
+                        <p class="teach-with-us__text">"PANJAB UNI. (BCA, MCA)GOLD MEDALLIS, UGC Net Qualified, Ex.Government College Teaching staff,
+                        Phd Research scholar at PANJAB UNI, More than 150 awards for coding and presentation,
+                        Research papers in SCOPUS index journals".</p><br>
+                        <p>-MANIT MALHOTRA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="teach-with-us__partner"></div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="content-container">
+            <div class="footer__wrapper" data-aos="fade-down">
+                <div class="social">
+                    <h4 class="footer__section-heading">Follow Us</h4>
+                    <ul class="social__links">
+                        <li class="social__link"><a href="https://www.facebook.com/manitmalhotra/" class="social__facebook" target="blank" rel="noopener"><i class="ri-facebook-circle-fill"></i></a></li>
+                        <li class="social__link"><a href="https://www.youtube.com/c/Kanishtacoder’s" class="social__youtube" target="blank" rel="noopener"><i class="ri-youtube-fill"></i></a></li>
+                        <!--<li class="social__link"><a href="#" class="social__telegram" target="blank" rel="noopener"><i class="ri-telegram-fill"></i></a></li>
+                        --><!-- <li class="social__link"><a href="#" class="social__twitter"><i class="ri-twitter-fill"></i></a></li> -->
+                        <!-- <li class="social__link"><a href="https://www.linkedin.com/company/tech-innovators-india/" class="social__linkedin" target="blank" rel="noopener"><i class="ri-linkedin-box-fill"></i></a></li>-->
+						<li class="social__link"><a href="https://wa.link/yn8yww" class="social__whatsapp" target="blank" rel="noopener"><i class="ri-whatsapp-fill"></i></a></li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h4 class="footer__section-heading">Links</h4>
+                    <ul class="comapny__links">
+                        <li class="company__link"><a href="#About">About Us</a></li>
+                        <li class="company__link"><a href="#Service">Services</a>
+                        </li>
+                        <li class="company__link"><a href="#">Top</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h4 class="footer__section-heading">Contact Us</h4>
+                    <a href="mailto:manitmalhotra@rediffmail.com?subject = Feedback&amp;body = Message">Email</a>
+                    <p class="contact__number">+91-7508154957, +91-9988885532</p>
+                    <p class="contact__address">SECTOR 15, CHANDIGARH, PUNJAB, India</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <ul class="footer__links">
+                    <li class="footer__link">© 2021, Kanishta Coder's Made by Sahil Rana. All right reserved.</li>
+                    <!-- <li class="footer__link"><a href="#" target="blank" rel="noopener">Terms and Conditions</a></li> -->
+                    <!-- <li class="footer__link"><a href="#" target="blank" rel="noopener">Privacy Policy</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:false,
+lazyLoad:true,
+autoplay:1,
+responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:1
+    },
+    1000:{
+        items:1
+    }
+}
+});
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/aos.js"></script>
+	<script type="text/javascript">
+	  AOS.init({ duration: 2500 });
+	</script>
+    <script>
+        $(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+    </script>
+    <script>
+        document.getElementById("read_more").addEventListener( 'click' , changeClass);
+
+function changeClass() {
+  var content = document.getElementById("extra_content");
+  var btn = document.getElementById("read_more");
+  content.classList.toggle('show');
+
+  if (content.classList.contains("show")) {
+      btn.innerHTML = "Show Less";
+  } else {
+      btn.innerHTML = "Show More";
+  }
+}
+    </script>
+
+
+</body></html>
